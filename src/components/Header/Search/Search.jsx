@@ -1,7 +1,6 @@
 import{MdClose} from "react-icons/md";
-import "./Search.scss";
 
-import prod from "../../assets/products/leather-sneaker-prod-1.jpg"; 
+import prod from "../../../assets/products/leather-sneaker- prod-1.jpg"; 
 const Search = (setShowSearch) => {
       return(
          <div className="search-modal">

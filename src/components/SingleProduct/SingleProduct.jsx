@@ -1,13 +1,13 @@
 import RelatedProducts from "./RelatedProducts/RelatedProducts";
 import{
-    FafacebookF,
+    FaFacebookF,
     FaTwitter,
     FaInstagram,
-    FainkedinIn,
+    FaLinkedinIn,
     FaPinterest,
-    FacartPlus,
+    FaCartPlus,
 }from "react-icons/fa";
-import prod from "../../assets/products/leather sneaker- prod-1.jpg"
+import prod from "../../assets/products/leather-sneaker- prod-1.jpg"
 import "./SingleProduct.scss";
 const SingleProduct = () => {
     return(
@@ -29,7 +29,7 @@ const SingleProduct = () => {
                                  <span>+</span>                             </div>
                               </div>
                               <button className=" add-to-cart-button">
-                              <FacartPlus size={2}/>
+                              <FaCartPlus size={2}/>
                               ADD TO CART
                               </button>  
                         </div>
@@ -42,11 +42,11 @@ const SingleProduct = () => {
                              <span className="text-bold">
                                 Share:
                              <span className="social-icons">
-                                    <FafacebookF size={16}/>
+                                    <FaFacebookF size={16}/>
                                     <FaTwitter size={16}/>
                                     <FaInstagram size={16}/>
                                     <FaPinterest size={16}/>
-                                    <FainkedinIn size={16}/>     
+                                    <FaLinkedinIn size={16}/>     
                                  </span>
                              </span>
                          </div>

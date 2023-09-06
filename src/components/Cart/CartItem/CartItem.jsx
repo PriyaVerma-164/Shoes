@@ -1,5 +1,5 @@
 import{MdClose} from "react-icons/md";
-import prod from "../../../assets/products/leather-sneaker-prod-1.jpg"
+import prod from "../../../assets/products/leather-sneaker- prod-1.jpg"
 import "./CartItem.scss";
 const CartItem = () => {
     return(

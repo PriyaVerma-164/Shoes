@@ -1,11 +1,11 @@
 import "./Category.scss";
-import Products from " ../Products/Products";
+import Product from "../Products/Product/Product";
 const Category = () => {
     return (
         <div className="category-main-content">
            <div className="layout">
             <div className="category-title">Category Title</div>
-               <Products innerPage={true}/>
+               <Product innerPage={true}/>
             </div>          
         </div>
             

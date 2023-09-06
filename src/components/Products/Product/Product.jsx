@@ -1,5 +1,5 @@
 import "./Product.scss";
-import prod from "../../assets/products/products/products-1.jpg"
+import prod from "../../../assets/products/products-1.jpg"
 const Product = () => {
     return (
     <div className="product-card">
